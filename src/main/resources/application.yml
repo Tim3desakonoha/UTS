@@ -2,7 +2,7 @@ server:
   port: 8081
 spring:
   datasource:
-    url: postgres://trixowspfxgplx:9ec6db66e5822d193bcd2b9997d7a8232286aec390b11cd56baa385223f91b6b@ec2-52-4-104-184.compute-1.amazonaws.com:5432/df0adu5tj9absk
+    url: jdbc:postgresql://trixowspfxgplx:9ec6db66e5822d193bcd2b9997d7a8232286aec390b11cd56baa385223f91b6b@ec2-52-4-104-184.compute-1.amazonaws.com:5432/df0adu5tj9absk
     username: trixowspfxgplx
     password: 9ec6db66e5822d193bcd2b9997d7a8232286aec390b11cd56baa385223f91b6b
   jpa:
