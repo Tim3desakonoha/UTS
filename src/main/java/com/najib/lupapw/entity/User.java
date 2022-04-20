@@ -14,7 +14,7 @@ import java.util.Set;
 
 @Data
 @Entity
-@Table(name = "user")
+@Table(name = "t_user", uniqueConstraints = @UniqueConstraint(columnNames = "email"))
 public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -62,6 +62,9 @@ public class User implements UserDetails {
 
     @Override
     public boolean isEnabled() {
+        return true;
+    }
+}   public boolean isEnabled() {
         return true;
     }
 }
