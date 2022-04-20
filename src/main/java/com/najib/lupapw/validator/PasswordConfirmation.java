@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
 @Constraint(validatedBy = PasswordConfirmationValidator.class)
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface  PasswordConfirmation {
+public @interface PasswordConfirmation {
     String password();
 
     String confirmPassword();

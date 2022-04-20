@@ -24,5 +24,5 @@ public class PasswordConfirmationValidator implements ConstraintValidator<Passwo
         }
         return confirmPasswordValue == null;
     }
-
 }
+

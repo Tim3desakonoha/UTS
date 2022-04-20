@@ -10,6 +10,4 @@ public class PasswordForgot {
     @NotEmpty(message = "{EMAIL_REQUIRED}")
     @Email(message = "{NOT_VALID_EMAIL}")
     private String email;
-
-
 }
