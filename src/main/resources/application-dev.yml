@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: postgres://trixowspfxgplx:9ec6db66e5822d193bcd2b9997d7a8232286aec390b11cd56baa385223f91b6b@ec2-52-4-104-184.compute-1.amazonaws.com:5432/df0adu5tj9absk
-    username: trixowspfxgplx
-    password: 9ec6db66e5822d193bcd2b9997d7a8232286aec390b11cd56baa385223f91b6b
+    url: postgres://rexeywuleripiu:3b7cde6338ad1439b20f0b621f4dbd179cc0c3615fb450197e5466fbefaa8912@ec2-3-209-124-113.compute-1.amazonaws.com:5432/d8r4s43kt2cdre
+    username: rexeywuleripiu
+    password: 3b7cde6338ad1439b20f0b621f4dbd179cc0c3615fb450197e5466fbefaa8912
   jpa:
     hibernate:
       ddl-auto: update

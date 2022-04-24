@@ -82,6 +82,7 @@
             <scope>test</scope>
         </dependency>
         <!-- bootstrap, jquery & font awesome webjars -->
+
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>bootstrap</artifactId>
@@ -94,8 +95,18 @@
         </dependency>
         <dependency>
             <groupId>org.webjars</groupId>
+            <artifactId>jquery</artifactId>
+            <version>3.6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
             <artifactId>font-awesome</artifactId>
             <version>${fontAwesome.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>font-awesome</artifactId>
+            <version>6.1.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
